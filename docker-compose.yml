@@ -1,0 +1,10 @@
+version: '3'
+services:
+  backend:
+    build: ./ascii-art-backend
+    ports:
+      - "8081:8081"
+  frontend:
+    build: ./ascii-art-frontend
+    ports:
+      - "8080:8080"

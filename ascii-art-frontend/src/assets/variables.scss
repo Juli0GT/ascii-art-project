@@ -1,0 +1,38 @@
+@import url('https://fonts.cdnfonts.com/css/do-futuristic');
+@import url('https://fonts.cdnfonts.com/css/zekton-2');
+@import url('https://fonts.cdnfonts.com/css/truebo');
+
+$darkgray-300: #8a8a8a;
+$darkgray-400: #575757;
+$body-font-color: #3d3d3d;
+$lightgray-400: #dbdbdb;
+$border-color: $lightgray-400;
+$background-color: #01012b;
+$font-color: #d1f7ff;
+$secondary-font-color: #005678;
+$primary-color: #ff2a6d;
+$secondary-color: #05d9e8;
+
+$base-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+	Helvetica, Arial, sans-serif;
+$fallback-font-family: 'Helvetica Neue', sans-serif;
+$cjk-ko-font-family: $base-font-family, 'Malgun Gothic', $fallback-font-family;
+$body-font-family: 'Zekton', $base-font-family, $fallback-font-family;
+$header-font-family: 'DO Futuristic', $base-font-family;
+$footer-font-family: 'truebo', $base-font-family;
+
+
+// Unit sizes
+$unit-h: 0.1rem;
+$unit-1: 0.2rem;
+$unit-2: 0.4rem;
+$unit-4: 0.8rem;
+$unit-6: 1rem;
+$unit-7: 1.4rem;
+$unit-8: 1.6rem;
+$unit-10: 2rem;
+$unit-100: 7rem;
+
+// Font sizes
+$html-font-size: $unit-6;
+$font-size-lg: 1.2rem;
